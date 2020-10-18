@@ -5,9 +5,9 @@ A simple script that allows you to anonymously assign gifts from a random catego
 ## Preparation
 
 Clone the repo and install dependencies.
-Then you should copy `.env.example` file into `.env` and insert your Gmail credentials into it
+Then you should copy `.env.example` file into `.env` and insert your Gmail credentials into it.
 
-**Disclaimer**
+**Disclaimer:**
 _For now, only gmail mails are supported, you should also have a ["Less secure apps access" enabled](https://support.google.com/accounts/answer/6010255?hl=en)_
 
 Now you can fill all users that will participate in the game, to do this you need to copy `users.json.example` into `users.json` and fill in players details as in example:

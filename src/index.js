@@ -30,8 +30,8 @@ async function main() {
     // Log output only when sending is disabled or when send is test message
     console.log(
       generated.map(
-        (el) =>
-          `Gift from ${el.from.name} to ${el.to.name} [${el.category} || ${el.alternativeCategory}]`
+        (row) =>
+          `Gift from ${row.from.name} to ${row.to.name} [${row.category} or ${row.alternativeCategory}]`
       )
     )
   }

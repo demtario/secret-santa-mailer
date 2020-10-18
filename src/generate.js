@@ -11,17 +11,13 @@ module.exports.generate = () => {
   }
 
   return from.map((v, i) => {
-    const cat1 = CATEGORIES[Math.round(Math.random() * (CATEGORIES.length - 1))]
-    let cat2 = cat1
-    while (cat1 === cat2) {
-      cat2 = CATEGORIES[Math.round(Math.random() * (CATEGORIES.length - 1))]
-    }
+    const shuffledCategories = shuffle(CATEGORIES)
 
     return {
       from: v,
       to: to[i],
-      category: cat1,
-      alternativeCategory: cat2,
+      category: shuffledCategories[0],
+      alternativeCategory: shuffledCategories[1],
     }
   })
 }
