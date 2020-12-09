@@ -23,6 +23,10 @@ Now you can fill all users that will participate in the game, to do this you nee
 
 You have to do simmilar thing with a `categories.json.example` file. There you can enter as many categories of gifts you want.
 
+### Banned pairs
+
+Sometimes, you may not want to allow person X to make a gift for person Y. You can ban that pair in `banned.json` file (Copy pattern from `banned.json.example`).
+
 ## Sending mails
 
 If you prepared all data, you can simply run a script using:
